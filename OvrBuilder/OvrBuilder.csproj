@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="gdal_csharp">
+      <HintPath>..\dll\gdal_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ogr_csharp">
+      <HintPath>..\dll\ogr_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="osr_csharp">
+      <HintPath>..\dll\osr_csharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
